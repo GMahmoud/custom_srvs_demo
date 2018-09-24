@@ -7,8 +7,8 @@ find_package(catkin REQUIRED COMPONENTS
 
 add_service_files(
    FILES
-   StartCmd.srv
-   StopCmd.srv
+   launcher/StartCmd.srv
+   launcher/StopCmd.srv
 )
 
 generate_messages(
