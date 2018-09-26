@@ -9,6 +9,7 @@ add_service_files(
    FILES
    launcher/StartCmd.srv
    launcher/StopCmd.srv
+   tts/TTSCmd.srv
 )
 
 generate_messages(
