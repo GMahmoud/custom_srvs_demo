@@ -1,0 +1,8 @@
+int32 answer
+---
+string question
+bool success
+string message
+
+
+
