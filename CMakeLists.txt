@@ -7,7 +7,9 @@ find_package(catkin REQUIRED COMPONENTS
 
 add_service_files(
    FILES
-   akinator/AkinatorCmd.srv
+   akinator/AkinatorStart.srv
+   akinator/AkinatorAnswer.srv
+   akinator/AkinatorResult.srv
    launcher/StartCmd.srv
    launcher/StopCmd.srv
    tts/TTSCmd.srv

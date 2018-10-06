@@ -1,6 +1,7 @@
 int32 answer
 ---
 string question
+float32 probability
 bool success
 string message
 
