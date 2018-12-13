@@ -1,0 +1,5 @@
+string service
+string application
+---
+bool success
+string message
