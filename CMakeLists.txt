@@ -3,6 +3,7 @@ project(custom_srvs)
 
 find_package(catkin REQUIRED COMPONENTS
   message_generation
+  custom_msgs
 )
 
 add_service_files(
@@ -13,13 +14,25 @@ add_service_files(
    launcher/StartCmd.srv
    launcher/StopCmd.srv
    tts/TTSCmd.srv
+   stt/STTCmd.srv
+   supervisor/AppCmdList.srv
+   supervisor/RunCmd.srv
+   supervisor/AppList.srv
+   supervisor/GetApp.srv
+   supervisor/StartApp.srv
+   supervisor/StopApp.srv
+   supervisor/StartService.srv
+   supervisor/StopService.srv
+   supervisor/SetProcessParam.srv
 )
 
 generate_messages(
+  DEPENDENCIES
+  custom_msgs
 )
 
 catkin_package(
- 	CATKIN_DEPENDS message_runtime
+ 	CATKIN_DEPENDS message_runtime custom_msgs
  )
 
 include_directories(
