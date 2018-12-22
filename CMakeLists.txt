@@ -24,6 +24,7 @@ add_service_files(
    supervisor/StartService.srv
    supervisor/StopService.srv
    supervisor/SetProcessParam.srv
+   process/SetParam.srv
 )
 
 generate_messages(
