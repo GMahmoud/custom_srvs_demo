@@ -1,0 +1,5 @@
+custom_msgs/HeadCmd cmd
+bool waiting_goal
+---
+string message
+bool success
