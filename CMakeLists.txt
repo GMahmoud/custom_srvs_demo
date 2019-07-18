@@ -7,8 +7,9 @@ add_service_files(FILES
                   akinator/AkinatorStart.srv
                   akinator/AkinatorAnswer.srv
                   akinator/AkinatorResult.srv
-                  behaviours/BehaviourCmd.srv
                   behaviours/BehaviourList.srv
+                  behaviours/HeadBehaviourCmd.srv
+                  behaviours/LedBehaviourCmd.srv
                   launcher/StartCmd.srv
                   launcher/StopCmd.srv
                   tts/TTSCmd.srv
