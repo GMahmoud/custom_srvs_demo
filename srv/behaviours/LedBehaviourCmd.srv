@@ -2,6 +2,7 @@ string behaviour
 uint32 steps
 float32 time_ms
 uint8 color_code
+bool force
 ---
 bool success
 string message
