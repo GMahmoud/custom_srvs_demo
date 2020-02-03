@@ -10,14 +10,14 @@ add_service_files(FILES
                   behaviours/BehaviourList.srv
                   behaviours/HeadBehaviourCmd.srv
                   behaviours/LedBehaviourCmd.srv
-                  launcher/StartCmd.srv
-                  launcher/StopCmd.srv
                   tts/TTSCmd.srv
                   stt/STTCmd.srv
                   supervisor/AppCmdList.srv
                   supervisor/RunCmd.srv
                   supervisor/AppList.srv
+                  supervisor/ServiceList.srv
                   supervisor/GetApp.srv
+                  supervisor/GetServices.srv
                   supervisor/StartApp.srv
                   supervisor/StopApp.srv
                   supervisor/StartService.srv
