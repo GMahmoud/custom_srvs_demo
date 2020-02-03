@@ -16,8 +16,10 @@ add_service_files(FILES
                   supervisor/RunCmd.srv
                   supervisor/AppList.srv
                   supervisor/ServiceList.srv
+                  supervisor/ProcessList.srv
                   supervisor/GetApp.srv
                   supervisor/GetServices.srv
+                  supervisor/GetProcesses.srv
                   supervisor/StartApp.srv
                   supervisor/StopApp.srv
                   supervisor/StartService.srv
