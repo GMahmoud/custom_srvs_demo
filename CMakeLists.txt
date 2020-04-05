@@ -27,7 +27,8 @@ add_service_files(FILES
                   supervisor/SetProcessParam.srv
                   process/SetParam.srv
                   control/HeadCmd.srv
-                  console/Logger.srv)
+                  console/Logger.srv
+                  monitoring/SystemInfo.srv)
 
 generate_messages(DEPENDENCIES custom_msgs)
 
