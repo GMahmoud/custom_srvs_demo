@@ -1,0 +1,7 @@
+---
+string robot_name
+string host
+bool ssl
+int32 port
+string connection_state
+string connection_type

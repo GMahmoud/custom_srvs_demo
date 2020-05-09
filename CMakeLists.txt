@@ -28,7 +28,11 @@ add_service_files(FILES
                   process/SetParam.srv
                   control/HeadCmd.srv
                   console/Logger.srv
-                  monitoring/SystemInfo.srv)
+                  monitoring/SystemInfo.srv
+                  state_machine/GetState.srv
+                  state_machine/Transition.srv
+                  socket/ConnectIO.srv
+                  socket/StateIO.srv)
 
 generate_messages(DEPENDENCIES custom_msgs)
 
