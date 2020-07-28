@@ -32,7 +32,9 @@ add_service_files(FILES
                   state_machine/GetState.srv
                   state_machine/Transition.srv
                   socket/ConnectIO.srv
-                  socket/StateIO.srv)
+                  socket/StateIO.srv
+                  rtc/ActionRTC.srv
+                  rtc/CommandRTC.srv)
 
 generate_messages(DEPENDENCIES custom_msgs)
 

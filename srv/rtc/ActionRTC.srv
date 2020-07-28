@@ -1,0 +1,6 @@
+string sender
+string action
+string stream
+---
+bool success
+string message
