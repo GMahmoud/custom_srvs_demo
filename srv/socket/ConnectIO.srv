@@ -2,6 +2,7 @@ string robot_name
 string host
 bool ssl
 int32 port
+bool no_port
 ---
 bool success
 string message
